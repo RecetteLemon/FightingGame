@@ -3,3 +3,8 @@
 Ryo_stay = 	1218, 496 	11, 2
 Ryo_move = 	828,  496	6,  2
 Ryo_backMove =	810,  496, 	6,  2
+Ryo_punch = 	1368, 496,	6,  2
+Ryo_kick = 	1704, 496	6,  2
+Ryo_jump, Ryo_drop = 96, 496,   1,  2
+Ryo_jump_punch = 1302, 496,     6,  2
+Ryo_specailSkill = 44100, 976, 90,  2  <- 왼쪽을 볼때는 역순으로 진행  -> 90, 89, 88 ....
