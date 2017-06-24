@@ -53,7 +53,7 @@ void player::command()
 				_vCommand.clear();
 				break;
 			}
-			else if (*_viCommand == RIGHT && *(_viCommand + 1) == RIGHT)
+			else if (*_viCommand == LEFT && *(_viCommand + 1) == LEFT)
 			{
 				_playerPos = DASH_LEFT;
 
