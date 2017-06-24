@@ -49,6 +49,15 @@
     <Filter Include="WakuWaku7">
       <UniqueIdentifier>{f0591b2a-ef5f-4897-adb6-5e09ef7e74ed}</UniqueIdentifier>
     </Filter>
+    <Filter Include="WakuWaku7\Player">
+      <UniqueIdentifier>{f06893db-b950-4a63-9b14-a1db22ee866c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="WakuWaku7\Scene">
+      <UniqueIdentifier>{2f1363a1-5058-429d-bc9c-bcaaf1e2d7af}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="WakuWaku7\Character">
+      <UniqueIdentifier>{2fd4087c-efd3-4373-a69c-23b28af8ee83}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <Text Include="ReadMe.txt" />
@@ -117,11 +126,23 @@
     <ClInclude Include="WakuWaku7.h">
       <Filter>WakuWaku7</Filter>
     </ClInclude>
+    <ClInclude Include="player.h">
+      <Filter>WakuWaku7\Player</Filter>
+    </ClInclude>
     <ClInclude Include="introScene.h">
-      <Filter>WakuWaku7</Filter>
+      <Filter>WakuWaku7\Scene</Filter>
     </ClInclude>
     <ClInclude Include="selectScene.h">
-      <Filter>WakuWaku7</Filter>
+      <Filter>WakuWaku7\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="BattleAreaScene.h">
+      <Filter>WakuWaku7\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="playerManager.h">
+      <Filter>WakuWaku7\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="may.h">
+      <Filter>WakuWaku7\Character</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
@@ -176,11 +197,23 @@
     <ClCompile Include="WakuWaku7.cpp">
       <Filter>WakuWaku7</Filter>
     </ClCompile>
+    <ClCompile Include="player.cpp">
+      <Filter>WakuWaku7\Player</Filter>
+    </ClCompile>
     <ClCompile Include="introScene.cpp">
-      <Filter>WakuWaku7</Filter>
+      <Filter>WakuWaku7\Scene</Filter>
     </ClCompile>
     <ClCompile Include="selectScene.cpp">
-      <Filter>WakuWaku7</Filter>
+      <Filter>WakuWaku7\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="BattleAreaScene.cpp">
+      <Filter>WakuWaku7\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="playerManager.cpp">
+      <Filter>WakuWaku7\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="may.cpp">
+      <Filter>WakuWaku7\Character</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

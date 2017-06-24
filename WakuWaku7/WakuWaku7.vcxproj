@@ -139,7 +139,11 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="animation.h" />
+    <ClInclude Include="BattleAreaScene.h" />
     <ClInclude Include="introScene.h" />
+    <ClInclude Include="may.h" />
+    <ClInclude Include="player.h" />
+    <ClInclude Include="playerManager.h" />
     <ClInclude Include="selectScene.h" />
     <ClInclude Include="WakuWaku7.h" />
     <ClInclude Include="commonMacroFunction.h" />
@@ -164,7 +168,11 @@
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="animation.cpp" />
+    <ClCompile Include="BattleAreaScene.cpp" />
     <ClCompile Include="introScene.cpp" />
+    <ClCompile Include="may.cpp" />
+    <ClCompile Include="player.cpp" />
+    <ClCompile Include="playerManager.cpp" />
     <ClCompile Include="selectScene.cpp" />
     <ClCompile Include="WakuWaku7.cpp" />
     <ClCompile Include="effect.cpp" />
