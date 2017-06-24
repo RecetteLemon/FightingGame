@@ -147,6 +147,9 @@
     <ClInclude Include="player.h">
       <Filter>WakuWaku7\Player</Filter>
     </ClInclude>
+    <ClInclude Include="ryo.h">
+      <Filter>WakuWaku7\Character</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="stdafx.cpp">
@@ -220,6 +223,9 @@
     </ClCompile>
     <ClCompile Include="player.cpp">
       <Filter>WakuWaku7\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="ryo.cpp">
+      <Filter>WakuWaku7\Character</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
