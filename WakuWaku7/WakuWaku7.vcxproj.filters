@@ -126,9 +126,6 @@
     <ClInclude Include="WakuWaku7.h">
       <Filter>WakuWaku7</Filter>
     </ClInclude>
-    <ClInclude Include="player.h">
-      <Filter>WakuWaku7\Player</Filter>
-    </ClInclude>
     <ClInclude Include="introScene.h">
       <Filter>WakuWaku7\Scene</Filter>
     </ClInclude>
@@ -143,6 +140,12 @@
     </ClInclude>
     <ClInclude Include="may.h">
       <Filter>WakuWaku7\Character</Filter>
+    </ClInclude>
+    <ClInclude Include="singo.h">
+      <Filter>WakuWaku7\Character</Filter>
+    </ClInclude>
+    <ClInclude Include="player.h">
+      <Filter>WakuWaku7\Player</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
@@ -197,9 +200,6 @@
     <ClCompile Include="WakuWaku7.cpp">
       <Filter>WakuWaku7</Filter>
     </ClCompile>
-    <ClCompile Include="player.cpp">
-      <Filter>WakuWaku7\Player</Filter>
-    </ClCompile>
     <ClCompile Include="introScene.cpp">
       <Filter>WakuWaku7\Scene</Filter>
     </ClCompile>
@@ -214,6 +214,12 @@
     </ClCompile>
     <ClCompile Include="may.cpp">
       <Filter>WakuWaku7\Character</Filter>
+    </ClCompile>
+    <ClCompile Include="singo.cpp">
+      <Filter>WakuWaku7\Character</Filter>
+    </ClCompile>
+    <ClCompile Include="player.cpp">
+      <Filter>WakuWaku7\Player</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

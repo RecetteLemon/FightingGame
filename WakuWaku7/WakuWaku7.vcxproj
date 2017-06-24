@@ -145,6 +145,7 @@
     <ClInclude Include="player.h" />
     <ClInclude Include="playerManager.h" />
     <ClInclude Include="selectScene.h" />
+    <ClInclude Include="singo.h" />
     <ClInclude Include="WakuWaku7.h" />
     <ClInclude Include="commonMacroFunction.h" />
     <ClInclude Include="effect.h" />
@@ -174,6 +175,7 @@
     <ClCompile Include="player.cpp" />
     <ClCompile Include="playerManager.cpp" />
     <ClCompile Include="selectScene.cpp" />
+    <ClCompile Include="singo.cpp" />
     <ClCompile Include="WakuWaku7.cpp" />
     <ClCompile Include="effect.cpp" />
     <ClCompile Include="effectManager.cpp" />

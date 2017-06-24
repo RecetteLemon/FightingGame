@@ -1,0 +1,49 @@
+﻿  stdafx.cpp
+  winMain.cpp
+  utils.cpp
+  txtData.cpp
+e:\github\fightinggame\wakuwaku7\txtdata.cpp(42): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+e:\github\fightinggame\wakuwaku7\txtdata.cpp(45): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+e:\github\fightinggame\wakuwaku7\txtdata.cpp(45): warning C4996: 'wcscat': This function or variable may be unsafe. Consider using wcscat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.14393.0\ucrt\corecrt_wstring.h(101): note: 'wcscat' 선언을 참조하십시오.
+  timer.cpp
+e:\github\fightinggame\wakuwaku7\timer.cpp(83): warning C4996: 'swprintf': function has been changed to conform with the ISO C standard, adding an extra character count parameter. To use the traditional Microsoft version, set _CRT_NON_CONFORMING_SWPRINTFS.
+  c:\program files (x86)\windows kits\10\include\10.0.14393.0\ucrt\corecrt_wstdio.h(1822): note: 'swprintf' 선언을 참조하십시오.
+  timeManager.cpp
+  soundManager.cpp
+  sceneManager.cpp
+  progressBar.cpp
+e:\github\fightinggame\wakuwaku7\progressbar.cpp(36): warning C4244: '=': 'LONG'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+e:\github\fightinggame\wakuwaku7\progressbar.cpp(61): warning C4244: '인수': 'unsigned short'에서 'BYTE'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+e:\github\fightinggame\wakuwaku7\progressbar.cpp(61): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+e:\github\fightinggame\wakuwaku7\progressbar.cpp(62): warning C4244: '인수': 'unsigned short'에서 'BYTE'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+e:\github\fightinggame\wakuwaku7\progressbar.cpp(66): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  keyManager.cpp
+  imageManager.cpp
+  image.cpp
+e:\github\fightinggame\wakuwaku7\image.cpp(339): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+e:\github\fightinggame\wakuwaku7\image.cpp(345): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  gameNode.cpp
+e:\github\fightinggame\wakuwaku7\gamenode.cpp(78): warning C4244: '=': 'float'에서 'LONG'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+e:\github\fightinggame\wakuwaku7\gamenode.cpp(79): warning C4244: '=': 'float'에서 'LONG'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+e:\github\fightinggame\wakuwaku7\gamenode.cpp(72): warning C4101: 'hdc' :참조되지 않은 지역 변수입니다.
+e:\github\fightinggame\wakuwaku7\gamenode.cpp(71): warning C4101: 'ps' :참조되지 않은 지역 변수입니다.
+  effectManager.cpp
+  effect.cpp
+  WakuWaku7.cpp
+  singo.cpp
+  selectScene.cpp
+e:\github\fightinggame\wakuwaku7\selectscene.cpp(24): warning C4244: '인수': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+e:\github\fightinggame\wakuwaku7\selectscene.cpp(27): warning C4244: '인수': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  playerManager.cpp
+  player.cpp
+  may.cpp
+  코드를 생성하고 있습니다...
+e:\github\fightinggame\wakuwaku7\txtdata.cpp(48): warning C4172: 지역 변수 또는 임시: str의 주소를 반환하고 있습니다.
+  컴파일하고 있습니다...
+  introScene.cpp
+  BattleAreaScene.cpp
+  animation.cpp
+  코드를 생성하고 있습니다...
+  WakuWaku7.vcxproj -> E:\GitHub\FightingGame\WakuWaku7\Debug\WakuWaku7.exe
+  WakuWaku7.vcxproj -> E:\GitHub\FightingGame\WakuWaku7\Debug\WakuWaku7.pdb (Partial PDB)
