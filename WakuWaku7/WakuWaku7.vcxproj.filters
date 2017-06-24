@@ -1,0 +1,225 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="2DGameFramework">
+      <UniqueIdentifier>{d787ffc6-8fe4-4907-9143-e645e5342ae7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="2DGameFramework\Animation">
+      <UniqueIdentifier>{20683bcc-e8cd-4dcd-a7d0-9d5a1d108616}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="2DGameFramework\Effect">
+      <UniqueIdentifier>{e6d7e0d1-88aa-4b6a-b9c7-d73ef8af4ae4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="2DGameFramework\GameNode">
+      <UniqueIdentifier>{032c1e47-84ec-4ccc-a83c-48ef35b53b29}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="2DGameFramework\Image">
+      <UniqueIdentifier>{2903cc43-697e-48a6-bc74-590d29103ef4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="2DGameFramework\Manager">
+      <UniqueIdentifier>{28a4b1c7-7fda-4f65-bf6f-3dfc0dcc036f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="2DGameFramework\SingletonBase">
+      <UniqueIdentifier>{7d5a9f19-6bee-4c38-b3de-1a3a1c267407}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="2DGameFramework\Time">
+      <UniqueIdentifier>{5d3aca2a-3f0d-42f8-891d-9c1b812e97d6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="2DGameFramework\TxtData">
+      <UniqueIdentifier>{4bd24262-23e5-484b-a31c-34c1eb47865b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="2DGameFramework\Util">
+      <UniqueIdentifier>{22d2e0c2-076d-4a64-9825-85c7ec74ec83}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="2DGameFramework\ProgressBar">
+      <UniqueIdentifier>{0a3bdd39-510f-4c71-9ccb-a273bdaa7014}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="WakuWaku7">
+      <UniqueIdentifier>{f0591b2a-ef5f-4897-adb6-5e09ef7e74ed}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="WakuWaku7\Player">
+      <UniqueIdentifier>{f06893db-b950-4a63-9b14-a1db22ee866c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="WakuWaku7\Scene">
+      <UniqueIdentifier>{2f1363a1-5058-429d-bc9c-bcaaf1e2d7af}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="WakuWaku7\Character">
+      <UniqueIdentifier>{2fd4087c-efd3-4373-a69c-23b28af8ee83}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="commonMacroFunction.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="randomFunction.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="singletonBase.h">
+      <Filter>2DGameFramework\SingletonBase</Filter>
+    </ClInclude>
+    <ClInclude Include="utils.h">
+      <Filter>2DGameFramework\Util</Filter>
+    </ClInclude>
+    <ClInclude Include="gameNode.h">
+      <Filter>2DGameFramework\GameNode</Filter>
+    </ClInclude>
+    <ClInclude Include="animation.h">
+      <Filter>2DGameFramework\Animation</Filter>
+    </ClInclude>
+    <ClInclude Include="effect.h">
+      <Filter>2DGameFramework\Effect</Filter>
+    </ClInclude>
+    <ClInclude Include="image.h">
+      <Filter>2DGameFramework\Image</Filter>
+    </ClInclude>
+    <ClInclude Include="effectManager.h">
+      <Filter>2DGameFramework\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="imageManager.h">
+      <Filter>2DGameFramework\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="keyManager.h">
+      <Filter>2DGameFramework\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="soundManager.h">
+      <Filter>2DGameFramework\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="timeManager.h">
+      <Filter>2DGameFramework\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="timer.h">
+      <Filter>2DGameFramework\Time</Filter>
+    </ClInclude>
+    <ClInclude Include="txtData.h">
+      <Filter>2DGameFramework\TxtData</Filter>
+    </ClInclude>
+    <ClInclude Include="progressBar.h">
+      <Filter>2DGameFramework\ProgressBar</Filter>
+    </ClInclude>
+    <ClInclude Include="sceneManager.h">
+      <Filter>2DGameFramework\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="WakuWaku7.h">
+      <Filter>WakuWaku7</Filter>
+    </ClInclude>
+    <ClInclude Include="player.h">
+      <Filter>WakuWaku7\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="introScene.h">
+      <Filter>WakuWaku7\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="selectScene.h">
+      <Filter>WakuWaku7\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="playerManager.h">
+      <Filter>WakuWaku7\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="may.h">
+      <Filter>WakuWaku7\Character</Filter>
+    </ClInclude>
+    <ClInclude Include="battleAreaScene.h">
+      <Filter>WakuWaku7\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="keyAniManager.h">
+      <Filter>2DGameFramework\Manager</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="winMain.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="utils.cpp">
+      <Filter>2DGameFramework\Util</Filter>
+    </ClCompile>
+    <ClCompile Include="gameNode.cpp">
+      <Filter>2DGameFramework\GameNode</Filter>
+    </ClCompile>
+    <ClCompile Include="animation.cpp">
+      <Filter>2DGameFramework\Animation</Filter>
+    </ClCompile>
+    <ClCompile Include="effect.cpp">
+      <Filter>2DGameFramework\Effect</Filter>
+    </ClCompile>
+    <ClCompile Include="image.cpp">
+      <Filter>2DGameFramework\Image</Filter>
+    </ClCompile>
+    <ClCompile Include="effectManager.cpp">
+      <Filter>2DGameFramework\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="imageManager.cpp">
+      <Filter>2DGameFramework\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="keyManager.cpp">
+      <Filter>2DGameFramework\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="soundManager.cpp">
+      <Filter>2DGameFramework\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="timeManager.cpp">
+      <Filter>2DGameFramework\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="timer.cpp">
+      <Filter>2DGameFramework\Time</Filter>
+    </ClCompile>
+    <ClCompile Include="txtData.cpp">
+      <Filter>2DGameFramework\TxtData</Filter>
+    </ClCompile>
+    <ClCompile Include="progressBar.cpp">
+      <Filter>2DGameFramework\ProgressBar</Filter>
+    </ClCompile>
+    <ClCompile Include="sceneManager.cpp">
+      <Filter>2DGameFramework\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="WakuWaku7.cpp">
+      <Filter>WakuWaku7</Filter>
+    </ClCompile>
+    <ClCompile Include="player.cpp">
+      <Filter>WakuWaku7\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="introScene.cpp">
+      <Filter>WakuWaku7\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="selectScene.cpp">
+      <Filter>WakuWaku7\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="playerManager.cpp">
+      <Filter>WakuWaku7\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="may.cpp">
+      <Filter>WakuWaku7\Character</Filter>
+    </ClCompile>
+    <ClCompile Include="battleAreaScene.cpp">
+      <Filter>WakuWaku7\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="keyAniManager.cpp">
+      <Filter>2DGameFramework\Manager</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
