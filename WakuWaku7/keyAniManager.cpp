@@ -45,7 +45,7 @@ void keyAniManager::render()
 
 
 //디폴트 애니메이션
-void keyAniManager::addDefaultFrameAnimation(wstring animationKeyName, wchar_t* imageKeyName, int fps, bool reverse, bool loop)
+void keyAniManager::addDefaultFrameAnimation(unsigned int animationKeyName, wchar_t* imageKeyName, int fps, bool reverse, bool loop)
 {
 	image* img = IMAGEMANAGER->findImage(imageKeyName);
 	animation* ani = new animation;
@@ -54,11 +54,11 @@ void keyAniManager::addDefaultFrameAnimation(wstring animationKeyName, wchar_t* 
 	ani->setDefPlayFrame(reverse, loop);
 	ani->setFPS(fps);
 
-	_mTotalAnimation.insert(pair<wstring, animation*>(animationKeyName, ani));
+	_mTotalAnimation.insert(pair<unsigned int, animation*>(animationKeyName, ani));
 
 }
 
-void keyAniManager::addDefaultFrameAnimation(wstring animationKeyName, wchar_t* imageKeyName, int fps, bool reverse, bool loop, void* cbFunction)
+void keyAniManager::addDefaultFrameAnimation(unsigned int animationKeyName, wchar_t* imageKeyName, int fps, bool reverse, bool loop, void* cbFunction)
 {
 	image* img = IMAGEMANAGER->findImage(imageKeyName);
 	animation* ani = new animation;
@@ -67,10 +67,10 @@ void keyAniManager::addDefaultFrameAnimation(wstring animationKeyName, wchar_t* 
 	ani->setDefPlayFrame(reverse, loop, (CALLBACK_FUNCTION)cbFunction);
 	ani->setFPS(fps);
 
-	_mTotalAnimation.insert(pair<wstring, animation*>(animationKeyName, ani));
+	_mTotalAnimation.insert(pair<unsigned int, animation*>(animationKeyName, ani));
 }
 
-void keyAniManager::addDefaultFrameAnimation(wstring animationKeyName, wchar_t* imageKeyName, int fps, bool reverse, bool loop, void* cbFunction, void* obj)
+void keyAniManager::addDefaultFrameAnimation(unsigned int animationKeyName, wchar_t* imageKeyName, int fps, bool reverse, bool loop, void* cbFunction, void* obj)
 {
 	image* img = IMAGEMANAGER->findImage(imageKeyName);
 	animation* ani = new animation;
@@ -79,12 +79,12 @@ void keyAniManager::addDefaultFrameAnimation(wstring animationKeyName, wchar_t* 
 	ani->setDefPlayFrame(reverse, loop, (CALLBACK_FUNCTION_PARAMETER)cbFunction, obj);
 	ani->setFPS(fps);
 
-	_mTotalAnimation.insert(pair<wstring, animation*>(animationKeyName, ani));
+	_mTotalAnimation.insert(pair<unsigned int, animation*>(animationKeyName, ani));
 }
 
 
 //배열 애니메이션
-void keyAniManager::addArrayFrameAnimation(wstring animationKeyName, wchar_t* imageKeyName, int* arr, int arrLen, int fps, bool loop)
+void keyAniManager::addArrayFrameAnimation(unsigned int animationKeyName, wchar_t* imageKeyName, int* arr, int arrLen, int fps, bool loop)
 {
 	image* img = IMAGEMANAGER->findImage(imageKeyName);
 	animation* ani = new animation;
@@ -93,10 +93,10 @@ void keyAniManager::addArrayFrameAnimation(wstring animationKeyName, wchar_t* im
 	ani->setPlayFrame(arr, arrLen, loop);
 	ani->setFPS(fps);
 
-	_mTotalAnimation.insert(pair<wstring, animation*>(animationKeyName, ani));
+	_mTotalAnimation.insert(pair<unsigned int, animation*>(animationKeyName, ani));
 }
 
-void keyAniManager::addArrayFrameAnimation(wstring animationKeyName, wchar_t* imageKeyName, int* arr, int arrLen, int fps, bool loop, void* cbFunction)
+void keyAniManager::addArrayFrameAnimation(unsigned int animationKeyName, wchar_t* imageKeyName, int* arr, int arrLen, int fps, bool loop, void* cbFunction)
 {
 	image* img = IMAGEMANAGER->findImage(imageKeyName);
 	animation* ani = new animation;
@@ -105,10 +105,10 @@ void keyAniManager::addArrayFrameAnimation(wstring animationKeyName, wchar_t* im
 	ani->setPlayFrame(arr, arrLen, loop, CALLBACK_FUNCTION(cbFunction));
 	ani->setFPS(fps);
 
-	_mTotalAnimation.insert(pair<wstring, animation*>(animationKeyName, ani));
+	_mTotalAnimation.insert(pair<unsigned int, animation*>(animationKeyName, ani));
 }
 
-void keyAniManager::addArrayFrameAnimation(wstring animationKeyName, wchar_t* imageKeyName, int* arr, int arrLen, int fps, bool loop, void* cbFunction, void* obj)
+void keyAniManager::addArrayFrameAnimation(unsigned int animationKeyName, wchar_t* imageKeyName, int* arr, int arrLen, int fps, bool loop, void* cbFunction, void* obj)
 {
 	image* img = IMAGEMANAGER->findImage(imageKeyName);
 	animation* ani = new animation;
@@ -117,12 +117,12 @@ void keyAniManager::addArrayFrameAnimation(wstring animationKeyName, wchar_t* im
 	ani->setPlayFrame(arr, arrLen, loop, CALLBACK_FUNCTION_PARAMETER(cbFunction), obj);
 	ani->setFPS(fps);
 
-	_mTotalAnimation.insert(pair<wstring, animation*>(animationKeyName, ani));
+	_mTotalAnimation.insert(pair<unsigned int, animation*>(animationKeyName, ani));
 }
 
 
 //구간 애니메이션
-void keyAniManager::addCoordinateFrameAnimation(wstring animationKeyName, wchar_t* imageKeyName, int start, int end, int fps, bool reverse, bool loop)
+void keyAniManager::addCoordinateFrameAnimation(unsigned int animationKeyName, wchar_t* imageKeyName, int start, int end, int fps, bool reverse, bool loop)
 {
 	image* img = IMAGEMANAGER->findImage(imageKeyName);
 	animation* ani = new animation;
@@ -131,10 +131,10 @@ void keyAniManager::addCoordinateFrameAnimation(wstring animationKeyName, wchar_
 	ani->setPlayFrame(start, end, reverse, loop);
 	ani->setFPS(fps);
 
-	_mTotalAnimation.insert(pair<wstring, animation*>(animationKeyName, ani));
+	_mTotalAnimation.insert(pair<unsigned int, animation*>(animationKeyName, ani));
 }
 
-void keyAniManager::addCoordinateFrameAnimation(wstring animationKeyName, wchar_t* imageKeyName, int start, int end, int fps, bool reverse, bool loop, void* cbFunction)
+void keyAniManager::addCoordinateFrameAnimation(unsigned int animationKeyName, wchar_t* imageKeyName, int start, int end, int fps, bool reverse, bool loop, void* cbFunction)
 {
 	image* img = IMAGEMANAGER->findImage(imageKeyName);
 	animation* ani = new animation;
@@ -143,10 +143,10 @@ void keyAniManager::addCoordinateFrameAnimation(wstring animationKeyName, wchar_
 	ani->setPlayFrame(start, end, reverse, loop, CALLBACK_FUNCTION(cbFunction));
 	ani->setFPS(fps);
 
-	_mTotalAnimation.insert(pair<wstring, animation*>(animationKeyName, ani));
+	_mTotalAnimation.insert(pair<unsigned int, animation*>(animationKeyName, ani));
 }
 
-void keyAniManager::addCoordinateFrameAnimation(wstring animationKeyName, wchar_t* imageKeyName, int start, int end, int fps, bool reverse, bool loop, void* cbFunction, void* obj)
+void keyAniManager::addCoordinateFrameAnimation(unsigned int animationKeyName, wchar_t* imageKeyName, int start, int end, int fps, bool reverse, bool loop, void* cbFunction, void* obj)
 {
 	image* img = IMAGEMANAGER->findImage(imageKeyName);
 	animation* ani = new animation;
@@ -155,36 +155,36 @@ void keyAniManager::addCoordinateFrameAnimation(wstring animationKeyName, wchar_
 	ani->setPlayFrame(start, end, reverse, loop, CALLBACK_FUNCTION_PARAMETER(cbFunction), obj);
 	ani->setFPS(fps);
 
-	_mTotalAnimation.insert(pair<wstring, animation*>(animationKeyName, ani));
+	_mTotalAnimation.insert(pair<unsigned int, animation*>(animationKeyName, ani));
 }
 
 
-void keyAniManager::start(wstring animationKeyName)
+void keyAniManager::start(unsigned int animationKeyName)
 {
 	iterAnimations iter = _mTotalAnimation.find(animationKeyName);
 	iter->second->start();
 }
 
-void keyAniManager::stop(wstring animationKeyName)
+void keyAniManager::stop(unsigned int animationKeyName)
 {
 	iterAnimations iter = _mTotalAnimation.find(animationKeyName);
 	iter->second->stop();
 }
 
-void keyAniManager::pause(wstring animationKeyName)
+void keyAniManager::pause(unsigned int animationKeyName)
 {
 	iterAnimations iter = _mTotalAnimation.find(animationKeyName);
 	iter->second->pause();
 }
 
-void keyAniManager::resume(wstring animationKeyName)
+void keyAniManager::resume(unsigned int animationKeyName)
 {
 	iterAnimations iter = _mTotalAnimation.find(animationKeyName);
 	iter->second->resume();
 }
 
 
-animation* keyAniManager::findAnimation(wstring animationKeyName)
+animation* keyAniManager::findAnimation(unsigned int animationKeyName)
 {
 	iterAnimations iter = _mTotalAnimation.find(animationKeyName);
 

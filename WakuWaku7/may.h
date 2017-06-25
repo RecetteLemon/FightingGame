@@ -3,6 +3,10 @@
 
 class may : public player
 {
+private:
+
+	
+
 public:
 
 	virtual HRESULT init(void);
@@ -11,6 +15,7 @@ public:
 	virtual void render(void);
 
 	//===========================================================커맨드 관리 함수
+	
 	
 	//===========================================================
 

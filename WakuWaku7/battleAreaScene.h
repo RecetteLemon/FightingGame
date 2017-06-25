@@ -1,10 +1,12 @@
 #pragma once
 #include "gameNode.h"
+#include "playerManager.h"
 
 class battleAreaScene : public gameNode
 {
 private:
 
+	playerManager* _pM;
 
 public:
 	virtual HRESULT init(void);

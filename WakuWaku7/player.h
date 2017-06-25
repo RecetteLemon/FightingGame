@@ -3,6 +3,9 @@
 #include "progressBar.h"
 #include <vector>
 
+#define PLAYER_SPEED 5.0f
+#define PLAYER_JUMPFORCE 15.0f
+#define GRAVITY 0.5f;
 
 class player : public gameNode
 {
@@ -26,39 +29,32 @@ protected:
 	{
 		STAND_RIGHT, STAND_LEFT,
 		WALK_RIGHT, WALK_LEFT,
+		BACKWALK_RIGHT, BACKWALK_LEFT,
 		DASH_RIGHT, DASH_LEFT,
 		JUMP_RIGHT, JUMP_LEFT,
-		DROP_RIGHT, DROP_LEFT
+		DROP_RIGHT, DROP_LEFT,
+		POS_END
 	};
 	
 
 
 	//===========================================================플레이어 정보 변수
-	struct tagPLAYER
-	{
-		float x, y;
-		float speed;
-		float jumpForce;
-		float gravity;
-
-		RECT rc;
-		RECT rcDamage;
-
-		tagPLAYER()
-		{
-			x = y = 0;
-			speed = 0;
-			jumpForce = 0;
-			gravity = 0;
-			rc = RectMake(0, 0, 0, 0);
-			rcDamage = RectMake(0, 0, 0, 0);
-		}
-	};
 	
+	POSITION _pos;
 
-	progressBar* _hpBar;
-	POSITION _playerPos;
+	bool			_onRight;
 
+	float			_x, _y;
+	float			_speed;
+	float			_jumpForce;
+	float			_gravity;
+
+	RECT			_rc;
+	RECT			_rcDamage;
+
+	progressBar*	_hpBar;
+	animation*		_ani;
+	image**			_img;
 
 
 	//===========================================================커맨드 변수들
@@ -79,9 +75,14 @@ public:
 	//===========================================================커맨드 관리 함수
 	virtual void command();
 	virtual void control();
+	virtual void action();
 	virtual void inputCommand();
 	
 	//===========================================================
+
+	virtual void draw();
+	virtual void motionInit(POSITION pos, wchar_t* keyName, bool reverse, bool loop, int fps);
+
 	player();
 	~player();
 };

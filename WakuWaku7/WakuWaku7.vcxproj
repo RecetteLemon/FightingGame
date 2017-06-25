@@ -140,6 +140,7 @@
   <ItemGroup>
     <ClInclude Include="animation.h" />
     <ClInclude Include="battleAreaScene.h" />
+    <ClInclude Include="dummy.h" />
     <ClInclude Include="introScene.h" />
     <ClInclude Include="keyAniManager.h" />
     <ClInclude Include="may.h" />
@@ -170,6 +171,7 @@
   <ItemGroup>
     <ClCompile Include="animation.cpp" />
     <ClCompile Include="battleAreaScene.cpp" />
+    <ClCompile Include="dummy.cpp" />
     <ClCompile Include="introScene.cpp" />
     <ClCompile Include="keyAniManager.cpp" />
     <ClCompile Include="may.cpp" />
