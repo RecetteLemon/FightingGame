@@ -14,6 +14,7 @@ WakuWaku7 _WakuWaku7;
 
 //포인트 변수 -> 구조체로 이루어져있고, x, y 좌표를 담을 수 있다.
 POINT _ptMouse;
+float _cameraX;
 
 
 //함수의 프로토 타입 선언

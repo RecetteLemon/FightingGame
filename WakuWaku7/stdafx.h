@@ -79,6 +79,7 @@ using namespace OMEGA_UTIL;
 extern HWND _hWnd;
 extern HINSTANCE _hInstance;
 extern POINT _ptMouse;
+extern float _cameraX;
 
 //===============================================메모리 누수 체크============================
 
